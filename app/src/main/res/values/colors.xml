@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="brand_primary">#1565C0</color>
+    <color name="brand_primary_dark">#0D47A1</color>
+
+    <!-- Accent -->
+    <color name="accent_red">#E53935</color>
+    <color name="accent_blue">#1E88E5</color>
+    <color name="accent_green">#43A047</color>
+    <color name="accent_orange">#F57C00</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_primary">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F8F9FA</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#555555</color>
+    <color name="text_secondary_dark">#BBDEFB</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Misc -->
+    <color name="divider">#E0E0E0</color>
+    <color name="selected_bg">#E3F2FD</color>
+    <color name="ripple">#1E1E88E5</color>
+</resources>

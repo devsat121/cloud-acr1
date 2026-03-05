@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Recording -->
+    <PreferenceCategory android:title="Recording">
+        <SwitchPreferenceCompat
+            android:key="pref_auto_record"
+            android:title="Auto-record calls"
+            android:summary="Automatically record all phone calls"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_record_incoming"
+            android:title="Record incoming calls"
+            android:defaultValue="true"
+            app:dependency="pref_auto_record" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_record_outgoing"
+            android:title="Record outgoing calls"
+            android:defaultValue="true"
+            app:dependency="pref_auto_record" />
+
+        <ListPreference
+            android:key="pref_save_format"
+            android:title="Audio format"
+            android:entries="@array/format_entries"
+            android:entryValues="@array/format_values"
+            android:defaultValue="m4a"
+            android:summary="%s" />
+    </PreferenceCategory>
+
+    <!-- Storage -->
+    <PreferenceCategory android:title="Storage">
+        <Preference
+            android:key="pref_save_location"
+            android:title="Save location"
+            android:summary="Music/CloudACR Recordings (tap to change)" />
+    </PreferenceCategory>
+
+    <!-- Helper -->
+    <PreferenceCategory android:title="Helper App">
+        <SwitchPreferenceCompat
+            android:key="pref_helper_enabled"
+            android:title="Use accessibility helper"
+            android:summary="Improves recording reliability on Android 10+"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="pref_open_accessibility"
+            android:title="Open Accessibility Settings"
+            android:summary="Enable Cloud ACR Helper accessibility service" />
+    </PreferenceCategory>
+
+    <!-- Notifications -->
+    <PreferenceCategory android:title="Notifications">
+        <Preference
+            android:key="pref_open_notifications"
+            android:title="Notification settings"
+            android:summary="Manage recording notifications" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

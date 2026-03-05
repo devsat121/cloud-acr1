@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cloud ACR Helper</string>
+    <string name="accessibility_service_label">Cloud ACR Helper</string>
+    <string name="accessibility_service_description">Monitors call state to enable automatic call recording in Cloud ACR. This service only detects when calls start and end — it does not access call content or personal data.</string>
+</resources>

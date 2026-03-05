@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cloud ACR</string>
+    <string name="helper_app_name">Cloud ACR Helper</string>
+    <string name="recording_notification_title">Recording call…</string>
+    <string name="recording_saved">Recording saved</string>
+    <string name="no_recordings">No recordings yet</string>
+    <string name="pref_auto_record_title">Auto-record calls</string>
+    <string name="pref_auto_record_summary">Automatically record all calls</string>
+    <string name="pref_record_incoming_title">Record incoming calls</string>
+    <string name="pref_record_outgoing_title">Record outgoing calls</string>
+    <string name="pref_save_format_title">Recording format</string>
+    <string name="pref_save_location_title">Save location</string>
+    <string name="pref_helper_title">Helper App</string>
+    <string name="pref_helper_summary">Use accessibility helper for better recording</string>
+</resources>
